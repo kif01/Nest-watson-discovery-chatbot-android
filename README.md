@@ -1,4 +1,4 @@
-# A voice-enabled Android ChatBot app powered by IBM Watson and Watson Discovery
+# A voice-enabled Android ChatBot Assistant app powered by IBM Watson and Watson Discovery
 
 This android app uses Speech to Text, Text to Speech, Watson Assistant and Watson Discovery services to communicate with a virtual assistant that helps users to install their Nest thermostat devices. Users can ask detailed questions abou their devices such as compatibility, warranty information, best place to put the thermostat and much more.
 
