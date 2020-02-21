@@ -8,8 +8,7 @@ This android app uses Speech to Text, Text to Speech, Watson Assistant and Watso
 
 
 ## Screenshots
-![Screenshot_20200207-125437](https://user-images.githubusercontent.com/15332386/74103704-c52d0c80-4b67-11ea-80b7-3c386912b641.jpg)
-![Screenshot_20200207-024150](https://user-images.githubusercontent.com/15332386/74103701-c3634900-4b67-11ea-8317-4f6747ab0e48.jpg)
+<img width="634" alt="Screen Shot 2020-02-21 at 7 35 37 PM" src="https://user-images.githubusercontent.com/15332386/75048103-69f10780-54e1-11ea-862b-2233af8c8fa2.png">
 
 
 
