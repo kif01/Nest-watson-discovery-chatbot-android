@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Watson Assistant service credentials-->
+    <!-- REPLACE `ASSISTANT_ID_HERE` with ID of the Assistant to use -->
+    <string name="assistant_id">090411c8-d797-4224-bb82-46f600529196</string>
+
+    <!-- REPLACE `ASSISTANT_API_KEY_HERE` with Watson Assistant service API Key-->
+    <string name="assistant_apikey">ypfCe_owtaqDC4lcL1uhbcKTRflBxk2Lqc2YBmVaFiJY</string>
+
+    <!-- The URL provided below is for DALLAS region/location -->
+    <!-- If the Assistant service is created in another region/lpcation -->
+    <!-- REPLACE the URL with the one provided in the credentials of the service you created-->
+    <string name="assistant_url">https://api.us-south.assistant.watson.cloud.ibm.com/instances/9364d7a5-fca2-4dfb-b983-4adf34290702</string>
+
+
+    <!--Watson Speech To Text(STT) service credentials-->
+    <!-- REPLACE `STT_API_KEY_HERE` with Watson Speech to Text service API Key-->
+    <string name="STT_apikey">-b_wM0GYwdOu3pfdrxFWKEsXfjXeIJWNp-2nIzMGh7kz</string>
+
+    <!-- The URL provided below is for DALLAS region/location -->
+    <!-- If the STT service is created in another region/lpcation -->
+    <!-- REPLACE the URL with STT URL provided in the service credentials -->
+    <string name="STT_url">https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/84bee29a-fbfb-4478-b663-dee53f596234</string>
+
+
+    <!--Watson Text To Speech(TTS) service credentials-->
+    <!-- REPLACE `TTS_API_KEY_HERE` with Watson Text to Speech service API Key-->
+
+
+    <!-- <string name="TTS_apikey">J-A8SQYv6OdAGUMap-_E32xoFrF4rD6n2_C7epmcmIs7</string>
+     <string name="TTS_url">https://stream.watsonplatform.net/text-to-speech/api</string>
+
+     <!- The URL provided below is for DALLAS region/location -->
+    <!-- If the TTS service is created in another region/lpcation -->
+    <!-- REPLACE the URL with TTS URL provided in the service credentials -->
+    <string name="TTS_apikey">gaah-pEyzXJ0eigZALlUaKPL2bUR1amLgITzPm9A6NkF</string>
+    <string name="TTS_url">https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/ea7668a6-1c16-4cbf-b50c-b46733fbea98</string>
+
+</resources>

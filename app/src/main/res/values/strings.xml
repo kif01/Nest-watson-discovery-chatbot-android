@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Watson Assistant</string>
+    <string name="what_s_on_your_mind">Type a message</string>
+    <string name="menu_refresh">Refresh</string>
+</resources>
