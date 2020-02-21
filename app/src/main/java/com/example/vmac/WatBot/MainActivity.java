@@ -27,6 +27,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.ibm.cloud.sdk.core.http.HttpMediaType;
 import com.ibm.cloud.sdk.core.http.Response;
 import com.ibm.cloud.sdk.core.http.ServiceCall;
@@ -134,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view, final int position) {
                 Message audioMessage = (Message) messageArrayList.get(position);
                 if (audioMessage != null && !audioMessage.getMessage().isEmpty()) {
-                    new SayTask().execute(audioMessage.getMessage());
+                  //  new SayTask().execute(audioMessage.getMessage());
                 }
             }
 
@@ -339,13 +340,18 @@ public class MainActivity extends AppCompatActivity {
                             switch (r.responseType()) {
                                 case "text":
                                     outMessage = new Message();
-                                    outMessage.setMessage(r.text());
+                                    if(r.text().contains("id")){
+                                        Gson gson = new Gson();
+                                        ResponseString e[] = gson.fromJson(r.text(),ResponseString[].class);
+                                        outMessage.setMessage(e[0].getText());
+                                    }else {
+                                        outMessage.setMessage(r.text());
+                                    }
                                     outMessage.setId("2");
-
                                     messageArrayList.add(outMessage);
 
                                     // speak the message
-                                    new SayTask().execute(outMessage.getMessage());
+                                    //new SayTask().execute(outMessage.getMessage());
                                     break;
 
                                 case "option":
@@ -363,7 +369,7 @@ public class MainActivity extends AppCompatActivity {
                                     messageArrayList.add(outMessage);
 
                                     // speak the message
-                                    new SayTask().execute(outMessage.getMessage());
+                                   // new SayTask().execute(outMessage.getMessage());
                                     break;
 
                                 case "image":
@@ -371,7 +377,7 @@ public class MainActivity extends AppCompatActivity {
                                     messageArrayList.add(outMessage);
 
                                     // speak the description
-                                    new SayTask().execute("You received an image: " + outMessage.getTitle() + outMessage.getDescription());
+                                   // new SayTask().execute("You received an image: " + outMessage.getTitle() + outMessage.getDescription());
                                     break;
                                 default:
                                     Log.e("Error", "Unhandled message type");
