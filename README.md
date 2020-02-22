@@ -4,11 +4,11 @@ This android app uses Speech to Text, Text to Speech, Watson Assistant and Watso
 
 ## Flow
 
-<img width="628" alt="Screen Shot 2020-02-09 at 9 39 36 PM" src="https://user-images.githubusercontent.com/15332386/74107070-ce2cd680-4b85-11ea-8990-312caaa70391.png">
+<img width="752" alt="Screen Shot 2020-02-22 at 12 56 44 PM" src="https://user-images.githubusercontent.com/15332386/75089523-1fb86680-5573-11ea-9dfe-f863e8a1010a.png">
 
 
 ## Screenshots
-<img width="752" alt="Screen Shot 2020-02-22 at 12 56 44 PM" src="https://user-images.githubusercontent.com/15332386/75089523-1fb86680-5573-11ea-9dfe-f863e8a1010a.png">
+
 
 
 
