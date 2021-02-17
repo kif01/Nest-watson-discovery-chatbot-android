@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/bot3"/>
+            android:src="@drawable/nest_icon"/>
 
     </item>
 
